@@ -8,9 +8,8 @@
 
 class Library {
 private:
-    std::vector<std::unique_ptr<Book>> books;   // „·ﬂÌ… Õ’—Ì… ··ﬂ »
-    std::vector<std::shared_ptr<User>> users;   // „·ﬂÌ… „‘ —ﬂ… ··„” Œœ„Ì‰
-
+    std::vector<std::unique_ptr<Book>> books;   
+    std::vector<std::shared_ptr<User>> users;   
 public:
     void addBook(std::unique_ptr<Book> b);
     void addUser(std::shared_ptr<User> u);
